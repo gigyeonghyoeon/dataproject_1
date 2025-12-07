@@ -1,4 +1,4 @@
-# 🕵️‍♂️ 서울시 환경요인이 범죄율에 미치는 영향 분석
+# 🕵️‍♂️환경요인이 범죄율에 미치는 영향 분석
 
 ## 📋 프로젝트 개요
 
@@ -8,21 +8,29 @@
 
 ## 📊 데이터 소스
 
-- [유흥주점 데이터](https://github.com/yourusername/repo/blob/main/data/entertainment.csv)
-- [CCTV 설치 현황](https://github.com/yourusername/repo/blob/main/data/cctv.csv)
-- [안전비상벨 데이터](https://github.com/yourusername/repo/blob/main/data/emergency_bell.csv)
-- [인구 데이터](https://github.com/yourusername/repo/blob/main/data/population.csv)
-- [범죄 발생 현황](https://github.com/yourusername/repo/blob/main/data/crime.csv)
+- [유흥주점 데이터](./지역별_유흥주점%20정보.xlsx)
+- [CCTV 설치 현황](./서울시%20자치구%20(범죄예방%20수사용)%20CCTV%20설치현황.xlsx)
+- [안전비상벨 데이터](./지역별%20안전벨%20정보.xlsx)
+- [인구 데이터](./2025_서울시_구별_인구.csv)
+- [범죄 발생 현황](./5대+범죄+발생현황_20251207115651.csv)
+
+---
+
+## 📓 분석 노트북
+
+- [지역별 유흥주점 전처리](./지역별_유흥주점전처리.ipynb)
+- [안전비상벨 분석](./안전비상벨.ipynb)
+- [년도별 지역별 서울시 범죄율 분석](./년도별_지역별_서울시_범죄율.ipynb)
+- [범죄율 영향요인 분석](./범죄율_영향요인_분석.ipynb)
 
 ---
 
 ## 📄 분석 결과물
 
-- **[📊 최종 보고서 (PDF)](https://github.com/yourusername/repo/blob/main/reports/final_report.pdf)**
-- **[📑 발표자료 (PPT)](https://github.com/yourusername/repo/blob/main/presentations/presentation.pptx)**
+- **[📊 최종 보고서 (PDF)](./환경요인에%20따른%20지역별%20범죄율%20분석.pdf)**
 
 ---
 
 ## 👥 제작자
 
-**Your Name** | [GitHub](https://github.com/yourusername) | [Email](mailto:your.email@example.com)
+**기경현** | [GitHub](https://github.com/yourusername)
