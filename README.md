@@ -33,4 +33,4 @@
 
 ## 👥 제작자
 
-**기경현** | [GitHub](https://github.com/yourusername)
+**기경현** | [GitHub](https://github.com/gigyeonghyoeon)
