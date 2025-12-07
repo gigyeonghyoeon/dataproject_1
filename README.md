@@ -26,29 +26,7 @@
 | 🔹 **범죄 데이터** | 5대 범죄(절도, 폭행, 강도, 살인, 성범죄) 발생 건수 |
 | 🔹 **유흥주점 데이터** | 지역별 유흥주점 수(인허가 기반) |
 | 🔹 **인구 데이터** | 지역별 총 인구 및 인구 밀도 |
-| 🔹 **CCTV 설치 현황** | 범죄예방용 CCTV 설치 대수 |
-| 🔹 **상권 및 시설 데이터(선택)** | 유동 인구, 상권 밀집도 |
+| 🔹 **CCTV 설치 현황** | 범죄예방용 CCTV 설치 대수  |
+| 🔹 **비상벨 설치 현황** | 범죄예방용 비상벨 설치 대수  |
 
 ---
-
-## 🛠 기술 스택
-- **언어**: Python 3.x  
-- **라이브러리**: Pandas, NumPy, Matplotlib, Seaborn, Plotly  
-- **전처리 및 분석**: Scikit-learn, Statsmodels  
-- **지도 시각화(Optional)**: Folium, GeoPandas  
-- **데이터 출처**: 공공데이터포털, 서울 열린데이터광장  
-
----
-
-## 📁 프로젝트 구조
-```bash
-📦 crime-environment-analysis
-├── data/                 # 원본 데이터
-├── processed/            # 전처리 후 데이터
-├── src/                  # 분석 코드
-│   ├── preprocessing.py
-│   ├── correlation.py
-│   ├── visualization.py
-│   └── regression.py
-├── results/              # 시각화 이미지, 결과표
-└── README.md
